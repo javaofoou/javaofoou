@@ -67,7 +67,7 @@
   header .links {
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
      margin-right: 6px;
   }
 
@@ -83,11 +83,13 @@
     font-size: 0.95em;
     padding: 5px;
   }
-
+   img.logo{
+   margin-right: 10px;
+}
   header .links {
     display:flex; 
     align-items center
-    justify-content center;
+    justify-content: space-between;
     flex-direction: column;
    margin-right: 6px; 
   margin-left : 5px;
@@ -95,7 +97,7 @@
 
   header a {
     font-size: 0.7em;
-    padding: 5px 8px;
+    padding: 5px;
     display: inline-block;
     text-align: center;
   }
@@ -109,7 +111,6 @@
 
   <div class="navbox">
     <img src="/medichecklogo.png" class="logo" alt="logo">
-
     <span class="links">
       <a href="/diagnose" class="active"><i class="fa fa-home"></i></a>
       <a href="/about">How It Works</a>
