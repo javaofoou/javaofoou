@@ -82,7 +82,7 @@
      ul.links li{
         font-weight:bold;
         font-size:0.8em;
-        display: block;
+        display: none;
         /*margin-top:25px;*/
         color: rgb(255, 255, 255);
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -1907,7 +1907,6 @@ section.about{
         </ul>
         <button id="menu" onclick="drpmenu();" style="color: white; font-size: 1.4em;"><i class="fa fa-bars"></i></button>
         </nav>
-        </header>
         <div id="popbox">
             <ul class="phone-navs">
                <a href="#myabout"><li>About Me</li></a>
@@ -1918,6 +1917,7 @@ section.about{
                <a href="#mycon"><li>Contact Me</li></a>
            </ul>
         </div>
+        </header>
         <section class="my-desc">
         <div id="header-img">
             <img src="headimg.png">
@@ -1936,7 +1936,7 @@ section.about{
     </div>
         </section>
     <section class="about" id="about">
-        <h1 id="myabout">About Me <i class="fa fa-address-book"></i> <a href="#heading">&#8593</a></h1>
+        <span id="myabout"><h1>About Me <i class="fa fa-address-book"></i> <a href="#heading">&#8593</a></span>
         <div id="abt-cards">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -2030,7 +2030,7 @@ section.about{
         </div>
     </section>
     <section class="about" id="achievement">
-        <h1 id="myachieves">Achievements <i class="fas fa-award"></i> <a href="#heading">&#8593</a></h1>
+        <span id="myachieves"><h1>Achievements <i class="fas fa-award"></i> <a href="#heading">&#8593</a></h1></span>
         <div id="abt-cards">
             <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
@@ -2098,7 +2098,7 @@ section.about{
         </section>          
     <section class="services" id="services">
     <p class="head">what I will do for you</p>
-    <h1 id="myservs">Our Services <i class="fa fa-cogs"></i> <a href="#heading">&#8593</a></h1>
+    <span id="myservs"><h1>Our Services <i class="fa fa-cogs"></i> <a href="#heading">&#8593</a></h1></span>
     <div id="ser-cards">
     <article class="ser-cards">
         <i class=""></i>
@@ -2283,7 +2283,7 @@ section.about{
         </div>
     </section>
     <section class="blogs-grp" id="blog">
-        <h1 id="#myblogs">Blogs <i class='fas fa-blog'></i> <a href="#heading">&#8593</a></h1>
+        <span id="myblogs"><h1>Blogs <i class='fas fa-blog'></i> <a href="#heading">&#8593</a></h1></span>
         <div class="blg-card">
             <img src="blogs/graduation_pic.jpg" alt="">
             <article>
@@ -2328,7 +2328,7 @@ section.about{
     </section>
     <footer>
     <section class="contact" id="contact">
-    <div class="contact-box">
+    <div class="contact-box" id="mycons">
         <div class="contact-left">
         <h1>Contact Me <a href="#heading">&#8593</a></h1>
         <p>lookmanworld01@gmail.com</p>
